@@ -18,51 +18,29 @@ A proposta deste projeto é relembrar o estilo visual anterior do Nubank, com fo
 
 ## 📂 Estrutura do Repositório
 
-plaintext
+```plaintext
 .
 ├── assets/
-│   ├── svg/
-│   │   ├── cartao.tsx
-│   │   ├── cobrar.tsx
-│   │   ├── depositar.tsx
-│   │   ├── email.tsx
-│   │   ├── icon-user.tsx
-│   │   ├── ocult.tsx
-│   │   ├── pagar.tsx
-│   │   ├── pix.tsx
-│   │   ├── question.tsx
-│   │   ├── recarga.tsx
-│   │   ├── tranfInternacional.tsx
-│   │   └── transferencia.tsx
+│   ├── png/
+│   │   ├── boleto.png
+│   │   ├── dinheiro.png
+│   │   ├── logo.png
+│   │   ├── mastercard.png
+│   │   ├── pix.png
+│   │   ├── setting.png
+│   │   └── wallet.tsx
 │   ├── adaptive-icon.png
 │   ├── favicon.png
 │   ├── icon.png
-│   ├── img.png
-│   ├── logo.png
 │   ├── preview.png
-│   ├── splash-icon.png
-│   └── splash.png
+│   └── splash-icon.png
 ├── src/
-│   ├── components
-│   │   ├── button-menu/
-│   │   │   ├── index.tsx
-│   │   │   └── style.ts
-│   │   ├── button/
-│   │   │   ├── index.tsx
-│   │   │   └── styles.ts
-│   │   ├── customSplash/
-│   │   │   ├── index.tsx
-│   │   │   └── styles.ts
-│   │   ├── info/
-│   │   │   ├── index.tsx
-│   │   │   └── style.ts
-│   │   └── portabilidade/
-│   │       ├── index.tsx
-│   │       └── styles.ts
+│   ├── @types
+│   │   ├── png.d.ts
+│   │   └── svg.d.ts
 │   ├── screens/
-│   │   └── main/
-│   │       ├── index.tsx
-│   │       └── styles.ts
+│   │   └── Home/
+│   │       └── index.ts
 │   └── theme/
 │       └── tokens.ts
 ├── .gitignore
@@ -70,7 +48,6 @@ plaintext
 ├── README.md
 ├── app.json
 ├── index.ts
-├── package-lock.json
 ├── package.json
 ├── tsconfig.json
 └── yarn.lock
